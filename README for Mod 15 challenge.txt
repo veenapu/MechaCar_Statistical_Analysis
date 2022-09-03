@@ -1,6 +1,6 @@
-# MechaCar_Statistical_Analysis
-Module 15 - Statistics and R
-
+# Module 15 - MechaCar Challenge
+# Statistics & R
+ 
 ## DELIVERABLE 1: Linear Regression to Predict MPG
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
