@@ -12,11 +12,11 @@ The p-value for this model: p-value: 5.35e-11, is much smaller than the assumed 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 This linear model has a R-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Or, the multiple regression model does predict mpg of MechCar prototypes effectively.
 
-Insert fig 1
+![Summary_statistics](https://github.com/veenapu/MechaCar_Statistical_Analysis/blob/main/Images/fig1_Deliverable_1.PNG)
 
 If we remove the less impactful independent variables/coefficients like vehicle weight, spoiler and and AWD, then the precidtcability does decrease, but not drastically.  The R-squared value falls from 0.7149 to 0.674. 
 
-Insert fig 2
+![Removing_less_impactful_variables](https://github.com/veenapu/MechaCar_Statistical_Analysis/blob/main/Images/fig2_del_1_removing_less_impactful_variables.PNG)
 
 ## DELIVERABLE 2: Summary Statistics on Suspension Coils
 
@@ -25,10 +25,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 The Supension_Coil dataset contains results of testing various weight capacitites of multiple suspension coils from multiple production lots to determine consistency.
 
 ### Total Summary for all manufacturing lots"
-Insert fig 3
+![Total_Summary](https://github.com/veenapu/MechaCar_Statistical_Analysis/blob/main/Images/fig3_del2_total_summary.PNG)
+
 
 ### Lot Summary for these specific lots:
-Insert fig 4
+![Lot_Summary](https://github.com/veenapu/MechaCar_Statistical_Analysis/blob/main/Images/fig4_del2_lot_summary.PNG)
 
 The variance of the coils is 62.29 PSI for the entire population (total summary) of 150 coils, which is well within the specification of 100 PSI.
 
@@ -39,13 +40,13 @@ Using your knowledge of R, perform t-tests to determine if all manufacturing lot
 
 The t-test on the suspension coil dataset to determine whether therre is a statistical difference between the mean of the provided dataset and the hypothesized population datas with a population mean of 1500 shows the following summary for ALL manufacturing lots:
 
-Insert fig 5
+![T-test_for_All_Lots](https://github.com/veenapu/MechaCar_Statistical_Analysis/blob/main/Images/fig5_del3_ttest_for_all_lots.PNG)
 
 The true mean of the sample is 1497.51, with a p-value of 0.06, which is higher than the siginificance level of 0.05.  This means that there is not enough evidence to support rejecting the null hypothesis.  The mean of all three of the manufacturing lots is statistically similar to the presumes popluation mean of 1500.05.
 
 Now, looking at each of the individual lots:
 
-Insert fig 6
+![T-test_for_subsets](https://github.com/veenapu/MechaCar_Statistical_Analysis/blob/main/Images/fig6_del3_ttest_for_subsets.PNG)
 
 - Lot 1 has a true sample mean of 1500 with a p-value of 1 which indicates that we cannot reject the null hypothesis and that there is no statistical difference between the observed sample mean and the popluation mean of 1500.
 
